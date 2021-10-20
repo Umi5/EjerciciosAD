@@ -30,7 +30,7 @@ public class Main {
         int cant = 0;
         System.out.print("Que nombre de usuario quieres: ");
         usuario.setUserName(teclado.nextLine());
-        System.out.print("Que contrasea quieres: ");
+        System.out.print("Que contraseña quieres: ");
         usuario.setPassword(teclado.nextLine());
 
         try {
