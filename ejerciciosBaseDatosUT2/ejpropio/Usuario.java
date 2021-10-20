@@ -4,7 +4,6 @@ public class Usuario {
 
     public Usuario(){
         this.dinero = 0;
-
     }
     public Usuario(String userName, String password, int id)
     {
