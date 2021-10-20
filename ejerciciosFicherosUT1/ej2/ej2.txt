@@ -1,0 +1,9 @@
+2. Investiga la viabilidad e inconvenientes del cambio de las propiedades del
+ sistema desde nuestras aplicaciones Java, mediante consulta en Internet.
+
+El problema es que estos cambios no son persistentes en el tiempo. Esto significa que
+cambiar las propiedades del sistema en una aplicacion no va a afectar futuras invocaciones
+del interprete de java ni en esta ni en otras aplicaciones. El sistema reinicia las propiedades
+del sistema cada vez que se ejecuta. Si los cambios de las propiedades son persistentes,
+entonces la aplicacion debe de escribirlas en algun fichero antes de salir y leerlas de 
+nuevo una vez que se vuelva a ejecutar.
