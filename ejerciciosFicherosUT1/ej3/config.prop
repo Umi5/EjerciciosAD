@@ -1,0 +1,6 @@
+#Fichero de configuracion del programa X
+#Fri Sep 17 13:39:55 CEST 2021
+version=1.2.3
+port=5858
+standalone=yes
+lanzamiento=11/08/2021
