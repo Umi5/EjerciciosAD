@@ -1,0 +1,76 @@
+- ARCHIVOS .PROPERTIES
+
+Guardar archivo con propiedades:
+
+1. Creamos la clase Properties ->  Properties writeProp = new Properties();
+2. Seteamos las properties que queramos ->  writeProp.setProperty("enemigos","3");
+3.Gracias a un try catch guardamos el archivo ->  configuracion.store(new FileOutputStream("configuracion.props"), "Fichero de configuracion");
+4.IMPORTS 
+import java.io.*;
+import java.util.*;
+
+Leer archivos con propiedades:
+
+1. Creamos la clase Properties ->  Properties readProp = new Properties();
+2. Guardamos en esa clase el archivo a leer ->  readProp.load(new FileInputStream("configuracion.props"));
+3. Leemos las propiedades que queramos del archivo -> readProp.getProperty("user");
+
+
+
+-ARCHIVOS .XML
+1. Creamos toda la mierda de clases
+ DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+ DocumentBuilder db = dbf.newDocumentBuilder();
+ Document document = db.newDocument();
+
+2. Una vez con el documento creado, le añadimos un Elemento root al documento de donde va a salir todo
+Element root = document.createElement("company");
+document.appendChild(root);
+
+3.Mediante un arrayList o la forma de guardar data que queramos, creamos un for/foreach para guardar la info
+ Element trabajador = document.createElement("employee");
+ root.appendChild(trabajador);
+
+ Element nombre = document.createElement("name");
+ nombre.appendChild(document.createTextNode(employee.getNombre()));
+ trabajador.appendChild(nombre);
+
+4.Cerramos toda la mierda de clases
+ TransformerFactory transformerFactory = TransformerFactory.newInstance();
+ Transformer transformer = transformerFactory.newTransformer();
+ DOMSource domSource = new DOMSource(document);
+ StreamResult streamResult = new StreamResult(new File("src\\pruebaTrabajadores.xml"));
+ transformer.transform(domSource, streamResult);
+
+5.IMPORTS XD
+import org.w3c.dom.*;
+import org.xml.sax.SAXException;
+import javax.xml.parsers.*;
+import javax.xml.transform.*;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import java.io.File;
+import java.io.IOException;
+import java.util.*;
+
+
+- BASE DE DATOS
+
+1. Dentro de un try catch, creamos la conexion con nuestra base de datos
+Connection c = DriverManager.getConnection("jdbc:mysql://localhost:3306/pruebaBase","root","root");
+//Esta conexion es un ejemplo de una conexion a una base de datos mysql desde mi casa
+
+2. Copiamos el .jar necesario del jdbc en un sitio donde lo tengamos controlado
+3. Compilamos con el .jar con el comando -cp1
+4.IMPORTS 
+import java.sql.*;
+
+- RAF
+
+1. Creamos el raf ->  RandomAccessFile raf = new RandomAccessFile("ejemplo_raf.dat", "rw");
+2. Usamos el puto raf
+3. IMPORTS
+import java.io.*;
+
+
+
