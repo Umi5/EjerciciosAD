@@ -23,3 +23,7 @@ Una vez dentro del usuario tendremos las siguientes opciones
     - Ver comunidad (nos saldran todas las comunidades y podremos ver sus valores)
     
     
+    Por ultimo dentro de la carpeta resources, tenremos el archivo hibernate.properties en el cual tendremos el pull de conexion al igual que
+    usuario y cintraseña de la base de datos con alguna propiedad mas. Para cambiar la conexion, remplazar el .properties o modificar el existente
+    
+    
