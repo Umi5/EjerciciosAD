@@ -1,0 +1,25 @@
+TRABAJO UNIDAD 3 MANY TO MANY
+
+En esta practica he hecho una aplicacion de consola usando un MVC para serparar las diferentes funcionalidades del programa
+
+El programa consiste en dos entidades relacionadas de formas MANY TO MANY en la cual saldrá una tabla intermediaria para 
+relacionarlas entre si. En este trabajo tendremos comunidades en las que habrá gente, y gente la cual estará suscrita
+a esas comunidadaes
+
+La primera interfaz de usuario mostrará
+  - Crear usuario (se nos pedirán valores y guardará el usuario y, si hubiese repeticion de nombres, saltará el aviso)
+  - Entrar a un usuario (pedira el username de un usuario para entrar a sus opciones VER USERNAMES EN LA BASE DE DATOS PARA VER DIFERENTES ENTRADAS)
+  
+Una vez dentro del usuario tendremos las siguientes opciones
+  - Ver datos del usuario (mostrará todos sus datos)
+  - Modificar usuario (modificará los datos del usuario)
+  - Borrar usuario (borrará los datos del usuario)
+  - Seguir comunidad (nos saltará una lista de comunidades y podremos seguir a una de ellas, si ya esta seguida, nos saldrá en pantalla)
+  - Escribir un archivo (nos creara un archivo en resources con los datos del usuario)
+  
+  
+  Las comunidades mostrará
+    - Crear comunidad (nos saldra una pantalla para rellenar los valores)
+    - Ver comunidad (nos saldran todas las comunidades y podremos ver sus valores)
+    
+    
