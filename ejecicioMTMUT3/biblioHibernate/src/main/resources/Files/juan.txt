@@ -1,0 +1,7 @@
+Nombre de usuario: juan
+Email: juan@gmail.com
+Edad 10
+Comunidades 
+- Sobre Ruedas
+- Delicioso
+

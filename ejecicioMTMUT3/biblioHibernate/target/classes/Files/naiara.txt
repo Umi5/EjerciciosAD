@@ -1,0 +1,6 @@
+Nombre de usuario: naiara
+Email: naiara@gmail.com
+Edad: 18
+Comunidades: 
+    - Sobre Ruedas
+    - Delicioso
