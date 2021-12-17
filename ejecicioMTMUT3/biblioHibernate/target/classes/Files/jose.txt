@@ -1,6 +1,0 @@
-Nombre de usuario: jose
-Email: jose@gmail.com
-Edad 20
-Comunidades 
-- Aire Fresco
-- Al Agua

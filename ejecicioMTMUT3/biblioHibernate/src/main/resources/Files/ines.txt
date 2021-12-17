@@ -1,6 +1,0 @@
-Nombre de usuario: ines
-Email: ines@gmail.com
-Edad: 16
-Comunidades: 
-    - Aire Fresco
-    - Al Agua

@@ -1,6 +1,0 @@
-Nombre de usuario: izan
-Email: izan@gmail.com
-Edad: 40
-Comunidades: 
-    - Sobre Ruedas
-    - Para chuparse los dedos
