@@ -18,12 +18,16 @@ Una vez dentro del usuario tendremos las siguientes opciones
   - Escribir un archivo (nos creara un archivo en resources con los datos del usuario)
   
   
-  Las comunidades mostrará
-    - Crear comunidad (nos saldra una pantalla para rellenar los valores)
-    - Ver comunidad (nos saldran todas las comunidades y podremos ver sus valores)
+Las comunidades mostrará
+  - Crear comunidad (nos saldra una pantalla para rellenar los valores)
+  - Ver comunidad (nos saldran todas las comunidades y podremos ver sus valores)
     
+
+La creacion de los usuarios y las comunidades tendran en cuenta duplicados, es decir, si se inserta un nombre de usuario que ya sea existente en nuestra base cuando estemos
+creando un usuario o estemos modificando el mismo, nos saltará un aviso de que ya existe un usuario con ese username y no se realizará la modificacion o la creación del usuario
+Por parte de la comunidad, si creamos una con el mismo nombre, no se nos creará debido a que ya hay una con el mismo nombre.
     
-    Por ultimo dentro de la carpeta resources, tenremos el archivo hibernate.properties en el cual tendremos el pull de conexion al igual que
-    usuario y cintraseña de la base de datos con alguna propiedad mas. Para cambiar la conexion, remplazar el .properties o modificar el existente
+Por ultimo dentro de la carpeta resources, tenremos el archivo hibernate.properties en el cual tendremos el pull de conexion al igual que
+usuario y cintraseña de la base de datos con alguna propiedad mas. Para cambiar la conexion, remplazar el .properties o modificar el existente
     
     
