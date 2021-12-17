@@ -1,0 +1,8 @@
+Nombre de usuario: manu
+Email: manu@gmail.com
+Edad: 21
+Comunidades: 
+    - Sobre Ruedas
+    - Al Agua
+    - Para chuparse los dedos
+    - Amazing
